@@ -1,8 +1,7 @@
-# data-visualization-in-complex-dataset
-## Ex:09 Data Visualization
+# Ex:09 Data Visualization
 
 
-# AIM
+## AIM
 
 To Perform Data Visualization on a complex dataset and save the data to a file.
 ALGORITHM
@@ -27,7 +26,7 @@ Try to find solutions for the following questions
 
 based on the "tips" dataset:
 
-# CODE
+## CODE
 
 import seaborn as sns
 import pandas as pd
@@ -38,14 +37,14 @@ print(df)
 df.isnull().sum()
 
 
-# HANDLING OUTLIERS
+### HANDLING OUTLIERS
 
 plt.figure(figsize=(8,8))
 plt.title("Data with Outliers")
 df.boxplot()
 plt.show()
 
-# REMOVING OUTLIERS
+### REMOVING OUTLIERS
 
 plt.figure(figsize=(8,8))
 cols = ['size','tip','total_bill']
@@ -117,7 +116,7 @@ sns.scatterplot(x="total_bill", y="tip", data=df)
 plt.title("Correlation between Tip Amount and Total Bill Amount")
 plt.show()
 
-# OUTPUT
+## OUTPUT
 
 ![image](https://github.com/varshini67t/data-visualization-in-complex-dataset/assets/107982953/49f9c0a1-41f5-4dbd-8836-cd1d938da6d8)
 ![image](https://github.com/varshini67t/data-visualization-in-complex-dataset/assets/107982953/67e187ce-eac1-472c-a922-80cbb4009a06)
@@ -135,6 +134,6 @@ plt.show()
 ![image](https://github.com/varshini67t/data-visualization-in-complex-dataset/assets/107982953/2036d498-7e07-411d-bd5a-1d051009a613)
 
 
-# RESULT
+## RESULT
 
   Thus we have performed data visualization operations on complex dataset.
